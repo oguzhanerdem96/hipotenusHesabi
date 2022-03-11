@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         func hipotenüsBulma(kenar1 : Double?, kenar2 : Double?) -> Double? {
             if let k1 = kenar1 , let k2 = kenar2 {
                var hipotenüs = pow(k1, 2) + pow(k2, 2)
+                
                 hipotenüs = hipotenüs.squareRoot()
                 return hipotenüs
             }
@@ -31,7 +32,7 @@ class ViewController: UIViewController {
         else {
             print("girdiğiniz değer bulunamadı.")
         }
-        print("yukarda veriler gösterilmiştir.")
+       
 
         // Do any additional setup after loading the view.
     }
